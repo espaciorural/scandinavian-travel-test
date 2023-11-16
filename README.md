@@ -42,7 +42,7 @@ Make sure you have the following components installed before getting started:
 
 
 3. Configure Rapyd
-    - Modify the `utilities/rapyd.php` file with your rapyd credentials: 
+    - Modify the `utilities/rapyd.php` file with your rapyd credentials:
         access_key
         secret_key
 
@@ -69,7 +69,7 @@ Make sure you have the following components installed before getting started:
     CVV: Any
     Exp. Date: Any future date
     Name: Any
-    
+
     On the next screen you can simulate a successful or unsuccessful transaction
 
 ## Contributing
