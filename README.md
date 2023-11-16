@@ -43,9 +43,9 @@ Make sure you have the following components installed before getting started:
 
 3. Configure Rapyd
     - Modify the `utilities/rapyd.php` file with your rapyd credentials:
-        access_key
-        secret_key
-
+    1. access_key
+    2. secret_key
+        
     - Modify the `utilities/process.php` file with your own urls:
         complete_checkout_url
         cancel_checkout_url
