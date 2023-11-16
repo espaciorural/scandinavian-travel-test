@@ -1,0 +1,227 @@
+/* styles.css */
+
+body {
+    background-color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 600px;
+}
+
+h1 {
+    color: #020246;
+    font-weight: bold;
+    font-size: 26.35px;
+}
+
+p {
+    color: #6c757d;
+    font-size: 13.95px;
+}
+
+.step-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0 30px 0;
+}
+
+.step {
+    list-style: none;
+    margin: .2rem 0;
+    width: 100%;
+  }
+  
+  .step .step-item {
+    -ms-flex: 1 1 0;
+    flex: 1 1 0;
+    margin-top: 0;
+    min-height: 1rem;
+    position: relative; 
+    text-align: center;
+  }
+  
+  .step .step-item:not(:first-child)::before {
+    background: #E11166;
+    content: "";
+    height: 2px;
+    left: -50%;
+    position: absolute;
+    top: 9px;
+    width: 100%;
+  }
+  
+  .step .step-item a {
+    color: #acb3c2;
+    display: inline-block;
+    padding: 50px 10px 0;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+  .step .step-item.active a {
+    color: #E11166;
+  }
+  
+  .step .step-item a::before {
+    background: radial-gradient(circle at center, #E11166 11% 10%, #ffffff 12% 40%, #dfdfdf 40% 60%, transparent 60%);
+    border: 0.1rem;
+    content: "";
+    display: block;
+    height: 3rem;
+    left: 50%;
+    position: absolute;
+    top: -0.9rem;
+    transform: translateX(-50%);
+    width: 3rem;
+    z-index: 1;
+  }
+  
+  .step .step-item.active a::before {
+    background: radial-gradient(circle at center, #E11166 11% 10%, #ffffff 12% 40%, #dfdfdf 40% 60%, transparent 60%);
+    border: .1rem;
+    content: "";
+    display: block;
+    height: 4rem;
+    left: 50%;
+    position: absolute;
+    top: -1.3rem;
+    transform: translateX(-50%);
+    width: 4rem;
+    z-index: 1;
+  }
+  
+  .step .step-item.active ~ .step-item::before {
+    background: #e7e9ed;
+  }
+  
+  .step .step-item.active ~ .step-item a::before {
+    background: radial-gradient(circle at center, #dfdfdf 12% 14%, #f5f5f5 14% 60%, transparent 60%);
+  }
+
+.form-container {
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.1); /* Sombra difuminada hacia la izquierda */
+    border-radius: 10px; /* Bordes curvos */
+    overflow: hidden; /* Para que las esquinas curvas se muestren correctamente */
+    color: #101828;
+    font-size: 12px;
+}
+
+form {
+    padding: 40px;
+}
+
+.form-container h2 {
+    font-size: 14px;
+}
+
+.form-container input, .form-container select {
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px; 
+}
+
+.form-container .form-group span.prepend {
+    background-color: #fff;
+    border-right: 0;
+}
+
+.form-container .form-group span.append {
+    background-color: #fff;
+    border-left: 0;
+}
+
+.input-group>.custom-select:not(:first-child), .input-group>.form-control:not(:first-child) {
+    border-left: 0;
+    border-right: 0;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #E11266;
+    border-color: #000;
+}
+.btn-primary:hover {
+    background-color: #9b0d46;
+}
+.text-checkbox {
+    margin-top: 0.4rem!important;
+}
+.background-image {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1; 
+}
+
+.overlay-image {
+    position: absolute;
+    top: 40%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.info-container {
+    position: relative; 
+    padding: 40px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; 
+    overflow: hidden; 
+    color: #101828;
+    font-size: 12px;
+}
+
+.pt-50 {
+    padding-top: 50px !important
+}
+
+.pt-70 {
+    padding-top: 70px !important
+}
+
+.mt-10 {
+    margin-top:10px !important
+}
+
+.mt-20 {
+    margin-top:20px !important
+}
+
+.mt-100 {
+    margin-top:100px !important
+}
+
+.info-container h2 {
+    font-size: 18px;
+}
+
+.info-container .order-info {
+    position: relative; 
+    padding: 10px;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px; 
+    overflow: hidden; 
+    color: #101828;
+    font-size: 12px;
+}
+.info-container .title {
+    font-size: 14px;
+    font-weight: bold;
+}
+.info-container .line {
+    border-bottom: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+
+.button {
+    cursor: pointer;
+}
