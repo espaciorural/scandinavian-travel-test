@@ -16,7 +16,7 @@ Make sure you have the following components installed before getting started:
 
     - Create a database in MySQL.
     - Modify the `utilities/config.php` file with your database credentials.
-    - Create two tables:
+    - Create two tables. Run the following SQL script to create the necessary tables in your database:
 
     CREATE TABLE `scandinavian_user` (
     `id` int(11) NOT NULL,
