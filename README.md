@@ -47,13 +47,13 @@ Make sure you have the following components installed before getting started:
     2. secret_key
         
     - Modify the `utilities/process.php` file with your own urls:
-        complete_checkout_url
-        cancel_checkout_url
-        complete_payment_url
-        error_payment_url
-        country
-        currency
-        language
+    1. complete_checkout_url
+    2. cancel_checkout_url
+    3. complete_payment_url
+    4. error_payment_url
+    5. country
+    6. currency
+    7. language
 
 
 ## Usage
