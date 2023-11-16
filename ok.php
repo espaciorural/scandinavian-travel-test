@@ -154,7 +154,7 @@ $userData = getUserDataFromTransactionId($transactionId);
             </div>
             <div class="row mt-10">
                 <div class="col-md-12">
-                    <button class="btn btn-primary btn-block">View Our Blog</button>
+                    <a href="transactions.php" class="btn btn-primary btn-block">View Transactions</a>
                 </div>
             </div>
             <div class="row mt-20">
@@ -167,7 +167,6 @@ $userData = getUserDataFromTransactionId($transactionId);
 
             <!-- jQuery y Bootstrap JS -->
             <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
             <!-- Tu código jQuery para la interacción y envío del formulario iría aquí -->
